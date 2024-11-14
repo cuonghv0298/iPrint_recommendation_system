@@ -14,50 +14,50 @@ The recommendation system will use the following datasets:
 
 1. consumer_transactions: Contains transaction details of consumer interactions with news articles on the platform.
 
-event_timestamp: Timestamp of the user's interaction with the article.
+- event_timestamp: Timestamp of the user's interaction with the article.
 
-interaction_type: Type of user interaction, such as content_commented_on, content_followed, 
+- interaction_type: Type of user interaction, such as content_commented_on, content_followed, 
 content_liked, content_saved, or content_watched.
 
-item_id: Unique ID of the interacted item.
+- item_id: Unique ID of the interacted item.
 
-consumer_id: Unique ID of the consumer who interacted with the item.
+- consumer_id: Unique ID of the consumer who interacted with the item.
 
-consumer_session_id: Unique session ID during which the interaction occurred.
+- consumer_session_id: Unique session ID during which the interaction occurred.
 
-consumer_device_info: Information on the consumer's device.
+- consumer_device_info: Information on the consumer's device.
 
-consumer_location: Location of the consumer.
+- consumer_location: Location of the consumer.
 
-country: Country of the consumer.
+- country: Country of the consumer.
 
 2. platform_content: Contains details of all news articles available on the platform.
 
-event_timestamp: Timestamp of the interaction.
+- event_timestamp: Timestamp of the interaction.
 
-interaction_type: Type of interaction, either content present or pulled out.
+- interaction_type: Type of interaction, either content present or pulled out.
 
-item_id: Unique ID of the news item.
+- item_id: Unique ID of the news item.
 
-producer_id: ID of the producer who added or interacted with the content.
+- producer_id: ID of the producer who added or interacted with the content.
 
-producer_session_id: ID of the session during which the producer interacted with the content.
+- producer_session_id: ID of the session during which the producer interacted with the content.
 
-producer_device_info: Device information of the producer.
+- producer_device_info: Device information of the producer.
 
-producer_location: Location of the producer.
+- producer_location: Location of the producer.
 
-producer_country: Country of the producer.
+- producer_country: Country of the producer.
 
-item_type: Type of content item, such as HTML, VIDEO, or RICH.
+- item_type: Type of content item, such as HTML, VIDEO, or RICH.
 
-item_url: URL of the item.
+- item_url: URL of the item.
 
-title: Title of the content.
+- title: Title of the content.
 
-text_description: Description of the content.
+- text_description: Description of the content.
 
-language: Language of the content (only English articles are used for recommendations).
+- language: Language of the content (only English articles are used for recommendations).
 
 # Procedure Overview
 
